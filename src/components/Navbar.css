@@ -117,13 +117,14 @@
 .btn-signup {
   background: var(--gradient-3);
   color: white;
-  padding: 0.6rem 1.5rem;
+  padding: 2px;
   border-radius: 8px;
   font-weight: 600;
   transition: all 0.3s;
   box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .btn-signup:hover {

@@ -1,6 +1,7 @@
 .contact-page {
   min-height: 100vh;
   background-color: var(--primary-bg);
+  gap:10px
 }
 
 .contact-header {
@@ -10,6 +11,7 @@
   padding: 5rem 2rem;
   text-align: center;
   overflow: hidden;
+  height: inherit;
 }
 
 .contact-header::before {
@@ -40,7 +42,7 @@
 
 .contact-container {
   max-width: 1400px;
-  margin: -3rem auto 0;
+  margin: 3rem auto 0;
   padding: 0 2rem 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
